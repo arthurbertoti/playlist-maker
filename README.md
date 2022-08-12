@@ -1,4 +1,4 @@
-#Playlist Maker
+# Playlist Maker
 O objetivo deste repositório é construir um site de criação de playlists musicais pessoais. Desenvolvido a partir de um desafio da 3035 TEACH.
 
 Imagine um lugar onde você possa cadastrar uma lista das suas músicas preferidas e listá-las. Ele terá 2 páginas de layout livre:
