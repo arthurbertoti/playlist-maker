@@ -5,4 +5,4 @@ Imagine um lugar onde você possa cadastrar uma lista das suas músicas preferid
 
 Uma página de boas-vindas e "login", onde o usuário poderá inserir seu nome para se identificar (este login não irá funcionar de fato, somente para fins ilustrativos);
 Uma segunda página com o título "Playlist de 'Fulano'" identificando o usuário "logado", um formulário para cadastro de uma nova música na playlist (Nome da faixa, artista e nome do álbum) e a listagem das músicas;
-Será feita a aplicação dos conceitos de Flexbox e Grid.
+Será feita a aplicação dos conceitos de Flexbox e Grid.chr
