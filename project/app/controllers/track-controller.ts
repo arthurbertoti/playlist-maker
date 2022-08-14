@@ -19,26 +19,20 @@ export class TrackController {
     }
 
     public addMusic(): void {
-        const track = this.criaTrack();
-        // ERRO        
-        //if (!this.ehDiaUtil(nrack.music)) {
-        //     this.messageView
-        //         .update('Apenas negociações em dias úteis são aceitas');
-        //     return ;
-        // }
+        const track = this.createTrack();
         this.playlist.addMusic(track);
-        this.limparFormulario();
+        this.clearForm();
         this.updateView();
     }
     
-    private criaTrack(): Track {
+    private createTrack(): Track {
         const music = this.inputMusic.value;
         const artist = this.inputArtist.value;
         const album = this.inputAlbum.value;
         return new Track(music, artist, album);
     }
 
-    private limparFormulario(): void {
+    private clearForm(): void {
         this.inputMusic.value = '';
         this.inputArtist.value = '';
         this.inputAlbum.value = '';

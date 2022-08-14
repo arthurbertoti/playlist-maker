@@ -13,24 +13,18 @@ export class TrackController {
         this.playlistView.update(this.playlist);
     }
     addMusic() {
-        const track = this.criaTrack();
-        // ERRO        
-        //if (!this.ehDiaUtil(nrack.music)) {
-        //     this.messageView
-        //         .update('Apenas negociações em dias úteis são aceitas');
-        //     return ;
-        // }
+        const track = this.createTrack();
         this.playlist.addMusic(track);
-        this.limparFormulario();
+        this.clearForm();
         this.updateView();
     }
-    criaTrack() {
+    createTrack() {
         const music = this.inputMusic.value;
         const artist = this.inputArtist.value;
         const album = this.inputAlbum.value;
         return new Track(music, artist, album);
     }
-    limparFormulario() {
+    clearForm() {
         this.inputMusic.value = '';
         this.inputArtist.value = '';
         this.inputAlbum.value = '';
