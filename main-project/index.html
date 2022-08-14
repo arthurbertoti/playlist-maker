@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Playlist Maker</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top glass-effect">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Playlist Maker</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Playlist</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="login.html">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <h1 class="text-center" id="playlist-name">Playlist de "Fulano"</h1>
+    
+    <div id="mensagemView"></div>
+    
+    <form class="form">
+      
+      <div class="form-group">
+        <label for="music-name">Nome da música</label>
+        <input type="text" id="music-name" class="form-control" required/>        
+      </div>    
+      
+      <div class="form-group">
+        <label for="artist">Artista</label>
+        <input type="text"id="artist" class="form-control" required/>
+      </div>
+      
+      <div class="form-group">
+        <label for="album">Nome do Álbum</label>
+        <input id="album" type="text" class="form-control" required />
+      </div>
+      
+      <button class="btn btn-primary" type="submit">Incluir</button>
+    </form>
+    <br>
+    <br>
+    <div id="negociacoesView"></div>
+    
+    <script type="module" src="js/app.js"></script>
+  </main>
+  
+  
+  
+  <footer id="about">
+    <p class="text-center">
+      @2022 PlaylistMaker | Todos os direitos reservados
+    </p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+  </html>

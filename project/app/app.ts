@@ -1,8 +1,8 @@
-import { NegociacaoController } from './controllers/negociacao-controller.js';
+import { TrackController } from './controllers/track-controller.js';
 
-const controller = new NegociacaoController();
+const controller = new TrackController();
 const form = document.querySelector('.form');
 form.addEventListener('submit', event => {
     event.preventDefault();
-    controller.adiciona();
+    controller.addMusic();
 });

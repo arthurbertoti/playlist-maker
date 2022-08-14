@@ -1,9 +1,9 @@
 export class View {
     constructor(seletor) {
-        this.elemento = document.querySelector(seletor);
+        this.element = document.querySelector(seletor);
     }
     update(model) {
         const template = this.template(model);
-        this.elemento.innerHTML = template;
+        this.element.innerHTML = template;
     }
 }
