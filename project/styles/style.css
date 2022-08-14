@@ -1,10 +1,11 @@
+@import url(var.css);
 html{
     height: 100%;
     width: 100%;
 }
 body{
     color: white;
-    background-image: linear-gradient(330deg, #451863 10%, #1b0432, #000000);
+    background-image: linear-gradient(330deg, var(--bg-color1) 10%, var(--bg-color2), var(--bg-color3));
     background-attachment: fixed;
 }
 .brand{
