@@ -2,7 +2,7 @@ import { View } from './view.js';
 export class PlaylistView extends View {
     template(model) {
         return `
-        <table class="table table-hover table-bordered">
+        <table class="table table-bordered glass-effect">
             <thead>
                 <tr>
                     <th>Nome da música</th>

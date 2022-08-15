@@ -6,7 +6,7 @@ export class PlaylistView extends View<Playlist> {
 
     protected template(model: Playlist): string {
         return `
-        <table class="table table-hover table-bordered">
+        <table class="table table-bordered glass-effect">
             <thead>
                 <tr>
                     <th>Nome da música</th>

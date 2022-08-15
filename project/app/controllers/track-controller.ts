@@ -10,6 +10,7 @@ export class TrackController {
     private playlist = new Playlist();
     private playlistView = new PlaylistView('#playlistView');
     private messageView = new MessageView('#messageView');
+    private alertMessage: HTMLElement;
 
     constructor() {
         this.inputMusic = document.querySelector('#music');
@@ -42,5 +43,13 @@ export class TrackController {
     private updateView(): void {
         this.playlistView.update(this.playlist);
         this.messageView.update('Música adicionada com sucesso');
+        this.cleanMessage(2500);
+    }
+
+    private cleanMessage(time:number){
+        this.alertMessage = document.querySelector('#messageView');
+        setTimeout(() => {
+            this.alertMessage.innerHTML = '';
+        }, time);
     }
 }

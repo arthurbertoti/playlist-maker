@@ -33,5 +33,12 @@ export class TrackController {
     updateView() {
         this.playlistView.update(this.playlist);
         this.messageView.update('Música adicionada com sucesso');
+        this.cleanMessage(2500);
+    }
+    cleanMessage(time) {
+        this.alertMessage = document.querySelector('#messageView');
+        setTimeout(() => {
+            this.alertMessage.innerHTML = '';
+        }, time);
     }
 }
