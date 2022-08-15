@@ -3,8 +3,9 @@ const inputName: HTMLInputElement = document.querySelector('#name');
 let userName:string = ''
 loginButton.onclick = function(event){
     event.preventDefault;
-    userName = inputName.value;
-    console.log(userName);
-    localStorage.setItem("name", userName);
-    window.location.href = 'home.html'
+    if (inputName.value.length > 0){
+        userName = inputName.value;
+        localStorage.setItem("name", userName);
+        window.location.href = 'home.html'
+    }
 }
