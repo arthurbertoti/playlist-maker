@@ -1,14 +1,12 @@
 # Playlist Maker
-O objetivo deste repositório é construir um site de criação de playlists musicais pessoais. Desenvolvido a partir de um desafio da 3035 TEACH.
-
-Imagine um lugar onde você possa cadastrar uma lista das suas músicas preferidas e listá-las. Ele terá 2 páginas de layout livre:
-
-Uma página de boas-vindas e "login", onde o usuário poderá inserir seu nome para se identificar (este login não irá funcionar de fato, somente para fins ilustrativos);
-Uma segunda página com o título "Playlist de 'Fulano'" identificando o usuário "logado", um formulário para cadastro de uma nova música na playlist (Nome da faixa, artista e nome do álbum) e a listagem das músicas;
-
+Site desenvolvido a partir do 2º desafio do curso 3035 TEACH da 3035 TECH.
 ## Como usar
-Para usar o servidor deve-se baixar o repositório e entrar no terminal, mudar a localização para a pasta do projeto ('.../playlist-maker/project') e digitar o comando 'npm run start'
-
+- Baixe o repositório
+- Entre no terminal
+- Mude a localização para a pasta do projeto ('.../playlist-maker/project')
+- Digite o comando 'npm run start'
+##### OU
+- Entre no site [Playlist Maker](https://arthurbertoti.github.io/profile/portfolio/playlist-maker/index.html)
 ## Futuras funções do projeto
 * Inserir uma aba de pesquisa na playlist
 * Retirar músicas da playlist
