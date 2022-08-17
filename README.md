@@ -9,8 +9,8 @@ Uma segunda página com o título "Playlist de 'Fulano'" identificando o usuári
 ## Como usar
 Para usar o servidor deve-se baixar o repositório e entrar no terminal, mudar a localização para a pasta do projeto ('.../playlist-maker/project') e digitar o comando 'npm run start'
 
-## Futuras funções
+## Futuras funções do projeto
 * Inserir uma aba de pesquisa na playlist
 * Retirar músicas da playlist
    * Pressionando um botão ao lado da música ou dois cliques em sua linha?
-* Alguma sugestão?
+* Você tem alguma sugestão?
